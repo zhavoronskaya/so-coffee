@@ -26,7 +26,7 @@ const dinCondensed = localFont({
   variable: "--font-din",
   src: [
     {
-      path: "./fonts/D-DINCondensed.ttf",
+      path: "./fonts/D-DINCondensed-Bold.ttf",
       weight: "700",
       style: "normal",
     },
