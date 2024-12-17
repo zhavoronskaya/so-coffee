@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --size: 580;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --background: #ffffff;
+    --foreground: #000000;
+    --size: 1200;
+  }
+}
+
+body.theme--dark {
+  --background: #000000;;
+  --foreground:  #ffffff;
+
+}
+
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+html {
+  font-size: clamp(1px, 10 * 100vw / var(--size), 12px);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-proxima);
+  -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
+  -webkit-transition: background .4s, color 0.4s;
+  transition: background .4s, color 0.4s;
+}
+
+h1 {
+  font-family: var(--font-geist-proxima-bold);
+}
+
+h4,
+h3,
+p {
+  white-space: pre-wrap;
+}
+
+dialog {
+  color: inherit;
+}
+
+.link-underline {
+  background: var(--foreground);
+}
