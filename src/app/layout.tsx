@@ -22,6 +22,16 @@ const proximaNova = localFont({
     },
   ],
 });
+const dinCondensed = localFont({
+  variable: "--font-din",
+  src: [
+    {
+      path: "./fonts/D-DINCondensed.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
   title: "SO Coffee Roasters - Specialty Coffee",
@@ -42,7 +52,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${proximaNova.variable} antialiased`}>{children}</body>
+      <body
+        className={`${proximaNova.variable} ${dinCondensed.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

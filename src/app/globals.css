@@ -17,11 +17,9 @@
 }
 
 body.theme--dark {
-  --background: #000000;;
-  --foreground:  #ffffff;
-
+  --background: #000000;
+  --foreground: #ffffff;
 }
-
 
 html,
 body {
@@ -38,12 +36,13 @@ body {
   font-family: var(--font-proxima);
   -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
   -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
-  -webkit-transition: background .4s, color 0.4s;
-  transition: background .4s, color 0.4s;
+  -webkit-transition: background 0.4s, color 0.4s;
+  transition: background 0.4s, color 0.4s;
 }
 
-h1 {
-  font-family: var(--font-geist-proxima-bold);
+h1,
+h3 {
+  font-family: var(--font-din);
 }
 
 h4,

@@ -105,7 +105,7 @@ export default function Home() {
 
           <div className="section-1 pt-32 pb-20 px-16 min-h-screen flex flex-col justify-between mix-blend-difference ">
             <div className="overflow-hidden">
-              <h1 className="first-block-el translate-y-[11rem] opacity-0 uppercase text-[10rem]/[1] font-semibold ">
+              <h1 className="first-block-el translate-y-[11rem] opacity-0 uppercase text-[13rem]/[1] sm:text-[15rem]/[11.5rem] font-bold ">
                 So Coffee Roasters
               </h1>
             </div>
