@@ -320,9 +320,9 @@ export default function Home() {
               </div>
 
               <div className="sm:col-start-4 sm:col-span-9  pb-12 border-b-2 ">
-                <h3 className="text-7xl uppercase mb-20 block">
+                <h1 className="text-7xl uppercase mb-20 block">
                   So coffee Roasters
-                </h3>
+                </h1>
                 <div className="flex justify-between">
                   <div>
                     <p className="text-2xl font-semibold mb-8 uppercase">

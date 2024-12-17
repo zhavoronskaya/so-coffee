@@ -40,8 +40,7 @@ body {
   transition: background 0.4s, color 0.4s;
 }
 
-h1,
-h3 {
+h1 {
   font-family: var(--font-din);
 }
 
