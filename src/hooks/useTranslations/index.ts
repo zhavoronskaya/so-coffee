@@ -2,7 +2,7 @@ import { translations } from "@/translations";
 import useApp from "../useApp";
 import { App } from "@/types";
 
-type Props = {};
+// type Props = {};
 
 const useTranslations = () => {
   const app = useApp({ watch: ["locale"] });

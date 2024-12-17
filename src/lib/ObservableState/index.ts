@@ -1,5 +1,5 @@
 type StateKey = string;
-type State = Record<StateKey, any>;
+type State = Record<StateKey, unknown>;
 type ListenerMeta = Record<string, string | number | Date | boolean>;
 type ListenerFunc<T> = (state: T, meta?: ListenerMeta) => void;
 type SetStateFunc<T> = (

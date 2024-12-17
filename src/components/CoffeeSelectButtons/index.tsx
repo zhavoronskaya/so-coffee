@@ -4,9 +4,9 @@ import useApp from "@/hooks/useApp";
 import { CoffeeId } from "@/types";
 import Device from "@/ui/utils/device";
 
-type Props = {};
+// type Props = {};
 
-const CoffeeSelectButtons = ({}: Props) => {
+const CoffeeSelectButtons = () => {
   return (
     <div>
       <div className="overflow-hidden">
